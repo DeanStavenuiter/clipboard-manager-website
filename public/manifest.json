@@ -1,0 +1,24 @@
+{
+  "name": "TREX Clipboard Manager",
+  "short_name": "TREX",
+  "description": "The ultimate clipboard manager for macOS with unlimited history and smart search",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#023531",
+  "theme_color": "#023531",
+  "icons": [
+    {
+      "src": "/trex-no-name-no-bg.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/trex-no-name-no-bg.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "orientation": "portrait-primary"
+}

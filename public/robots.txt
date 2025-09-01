@@ -1,0 +1,20 @@
+# robots.txt for TREX Clipboard Manager
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://trex-clipboard.com/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Allow important files
+Allow: /favicon.ico
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
