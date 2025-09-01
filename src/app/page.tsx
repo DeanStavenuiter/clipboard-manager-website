@@ -3,6 +3,7 @@ import Features from '@/components/Features';
 import Download from '@/components/Download';
 import Footer from '@/components/Footer';
 import SmoothScroll from '@/components/SmoothScroll';
+import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       <Footer />
 
       {/* Enhanced Structured Data for SEO */}
-      <script 
+      <Script 
+        id="structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([
@@ -40,7 +42,7 @@ export default function Home() {
               },
               "publisher": {
                 "@type": "Organization", 
-                "name": "TREX"
+                "name": "Dean Stavenuiter"
               },
               "url": "https://trex.deanstavenuiter.nl",
               "downloadUrl": "https://trex.deanstavenuiter.nl/download/Trex.dmg",

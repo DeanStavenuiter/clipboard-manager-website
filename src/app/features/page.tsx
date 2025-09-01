@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import Footer from '@/components/Footer';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "TREX Features - Advanced Clipboard Manager for macOS | Complete Feature List",
@@ -277,7 +278,8 @@ export default function FeaturesPage() {
       <Footer />
 
       {/* Structured Data for Features Page */}
-      <script 
+      <Script 
+        id="structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
