@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://trex-clipboard.com/sitemap.xml
+Sitemap: https://trex.deanstavenuiter.nl/sitemap.xml
 
 # Optimize crawling
 Crawl-delay: 1
