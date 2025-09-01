@@ -4,7 +4,7 @@ export default function Download() {
   const handleDownload = () => {
     // Replace this with your actual download link
     //TODO add download link
-    window.location.href = '';
+    window.location.href = 'https://trex-clipboard-manager.s3.eu-north-1.amazonaws.com/Trex-1.0.0-arm64.dmg';
   };
 
   return (
