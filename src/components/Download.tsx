@@ -3,7 +3,8 @@
 export default function Download() {
   const handleDownload = () => {
     // Replace this with your actual download link
-    window.location.href = '/download/Trex.dmg';
+    //TODO add download link
+    window.location.href = '';
   };
 
   return (
