@@ -7,7 +7,7 @@
   <!-- Main page -->
   <url>
     <loc>https://trex.deanstavenuiter.nl/</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,23 +15,55 @@
   <!-- Features page -->
   <url>
     <loc>https://trex.deanstavenuiter.nl/features</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Features section -->
+  <!-- FAQ page -->
   <url>
-    <loc>https://trex.deanstavenuiter.nl/#features</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trex.deanstavenuiter.nl/faq</loc>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Download section -->
+  <!-- Contact page -->
+  <url>
+    <loc>https://trex.deanstavenuiter.nl/contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Privacy Policy page -->
+  <url>
+    <loc>https://trex.deanstavenuiter.nl/privacy</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Terms of Service page -->
+  <url>
+    <loc>https://trex.deanstavenuiter.nl/terms</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Features section anchor -->
+  <url>
+    <loc>https://trex.deanstavenuiter.nl/#features</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Download section anchor -->
   <url>
     <loc>https://trex.deanstavenuiter.nl/#download</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
