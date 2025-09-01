@@ -117,7 +117,7 @@ export default function Footer() {
             <ul className="space-y-3 text-[#5FB845]/80">
               <li>
                 <Link
-                  href="#"
+                  href="/privacy"
                   className="hover:text-white transition-colors duration-200 flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-[#5FB845] rounded-full group-hover:bg-white transition-colors"></span>
@@ -126,14 +126,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/terms"
                   className="hover:text-white transition-colors duration-200 flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-[#5FB845] rounded-full group-hover:bg-white transition-colors"></span>
                   Terms of Service
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="#"
                   className="hover:text-white transition-colors duration-200 flex items-center gap-2 group"
@@ -141,7 +141,7 @@ export default function Footer() {
                   <span className="w-1 h-1 bg-[#5FB845] rounded-full group-hover:bg-white transition-colors"></span>
                   License
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
