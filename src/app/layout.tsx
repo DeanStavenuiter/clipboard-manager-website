@@ -34,12 +34,12 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  metadataBase: new URL('https://trex.deanstavenuiter.nl'), // Replace with your actual domain
+  metadataBase: new URL('https://trex.deanstavenuiter.nl'),
   alternates: {
     canonical: '/',
   },
   verification: {
-    google: 'your-google-verification-code', // Add your actual Google verification code
+    google: 'V-l_Yt_AfpfyLds07Mv3vMYzYIjKURMjruV7WapBnpk', 
   },
   openGraph: {
     title: "TREX - The Ultimate Clipboard Manager for macOS | Free Download",
@@ -60,8 +60,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@trexclipboard", // Add your actual Twitter handle
-    creator: "@deanstavenuiter", // Add your actual Twitter handle
     title: "TREX - The Ultimate Clipboard Manager for macOS | Free Download",
     description: "Download TREX, the most powerful clipboard manager for macOS. Unlimited history, smart search, privacy-first. Boost your productivity today!",
     images: ['/trex-no-name-no-bg.png'],
