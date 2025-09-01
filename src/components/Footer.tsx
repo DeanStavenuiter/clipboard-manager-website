@@ -78,7 +78,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#download"
+                  href="/#download"
                   className="hover:text-white transition-colors duration-200 flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-[#5FB845] rounded-full group-hover:bg-white transition-colors"></span>
@@ -106,7 +106,7 @@ export default function Footer() {
                   className="hover:text-white transition-colors duration-200 flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-[#5FB845] rounded-full group-hover:bg-white transition-colors"></span>
-                  Contact Us
+                  Contact
                 </Link>
               </li>
             </ul>

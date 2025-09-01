@@ -101,7 +101,7 @@ export default function Hero() {
               >
                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
               </svg>
-              <span className="relative z-10">Download Free for macOS</span>
+              <span className="relative z-10">Download for Free</span>
               <div className="absolute inset-0 ring-2 ring-white/20 rounded-2xl group-hover:ring-white/40 transition-all duration-300"></div>
             </Link>
             

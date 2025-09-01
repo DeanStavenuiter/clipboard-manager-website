@@ -9,8 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.879.0",
     "@next/third-parties": "^15.5.2",
+    "@types/nodemailer": "^7.0.1",
+    "dompurify": "^3.2.6",
     "next": "^15.5.2",
+    "nodemailer": "^7.0.6",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
