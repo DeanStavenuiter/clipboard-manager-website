@@ -7,7 +7,7 @@ import Script from 'next/script';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-[#0E3473]">
+    <div className="min-h-screen bg-white text-[#023531]">
       <SmoothScroll />
       {/* <Header /> */}
       <main>

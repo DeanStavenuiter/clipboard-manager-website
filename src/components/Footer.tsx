@@ -117,7 +117,7 @@ export default function Footer() {
                   className="hover:text-white transition-colors duration-200 flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-[#5FB845] rounded-full group-hover:bg-white transition-colors"></span>
-                  Buy me a coffee or book 
+                  Buy me a coffee ☕️
                 </Link>
               </li>
             </ul>

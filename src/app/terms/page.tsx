@@ -21,27 +21,30 @@ export const metadata: Metadata = {
 };
 
 export default function TermsPage() {
-  const lastUpdated = "January 2025";
-  const effectiveDate = "January 2025";
+  const lastUpdated = "September 2025";
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#023531] via-[#034a3f] to-[#5FB845] text-white py-12 md:py-16 lg:py-20">
         <div className="max-w-6xl mx-auto px-4 md:px-6 text-center relative z-10">
-          <div className="mb-8">
-            <Link href="/" className="inline-flex items-center gap-3 mb-6 hover:scale-105 transition-transform">
-              <div className="bg-white/95 backdrop-blur-sm rounded-xl p-2 shadow-lg">
-                <Image
-                  src="/trex-no-name-no-bg.png"
-                  alt="TREX Logo"
-                  width={40}
-                  height={40}
-                  className="drop-shadow-lg"
-                />
-              </div>
-              <span className="text-2xl font-bold">TREX</span>
-            </Link>
+         {/* App Name with Logo */}
+         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 mb-6 md:mb-8">
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-3 shadow-2xl border border-white/20">
+               <Image
+              src="/trex-no-name-no-bg.png"
+              alt="TREX"
+              width={85}
+              height={85}
+              className="drop-shadow-lg w-16 h-16 md:w-[85px] md:h-[85px]"
+            />
+            </div>
+            <div className="text-center">
+              <h1 className="text-4xl md:text-7xl lg:text-8xl font-black tracking-wider bg-gradient-to-r from-white via-[#5FB845] to-white bg-clip-text text-transparent drop-shadow-2xl">
+                TREX
+              </h1>
+              <div className="h-0.5 md:h-1 bg-gradient-to-r from-transparent via-[#5FB845] to-transparent rounded-full mt-1 md:mt-2"></div>
+            </div>
           </div>
           
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 md:mb-6 bg-gradient-to-r from-white via-[#5FB845] to-white bg-clip-text text-transparent px-2">
@@ -53,7 +56,7 @@ export default function TermsPage() {
           </p>
           
           <div className="text-white/70 text-sm md:text-base">
-            Last updated: {lastUpdated} • Effective: {effectiveDate}
+            Last updated: {lastUpdated} 
           </div>
         </div>
       </section>
@@ -340,15 +343,24 @@ export default function TermsPage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/contact"
-                  className="bg-white text-[#023531] px-6 py-3 rounded-xl font-bold text-lg hover:bg-gray-100 transition-colors text-center"
+                  className="group relative bg-white text-[#023531] px-8 md:px-10 py-4 md:py-5 rounded-2xl font-bold text-lg transition-all duration-500 shadow-2xl hover:shadow-3xl flex items-center gap-3 overflow-hidden w-full max-w-sm md:max-w-none justify-center"
                 >
-                  Contact Us
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#5FB845]/10 to-[#5FB845]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <svg
+                    className="w-6 h-6 relative z-10 transition-transform group-hover:translate-y-[-2px]"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
+                  </svg>
+                  <span className="relative z-10">Contact Us</span>
+                  <div className="absolute inset-0 ring-2 ring-white/20 rounded-2xl group-hover:ring-white/40 transition-all duration-300"></div>
                 </Link>
                 <Link
                   href="/privacy"
-                  className="border-2 border-white/30 text-white px-6 py-3 rounded-xl font-bold text-lg hover:bg-white/10 transition-colors text-center"
+                  className="group relative border-2 border-white/30 text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl font-bold text-lg transition-all duration-500 hover:bg-white/10 hover:border-white/50 flex items-center gap-3 overflow-hidden w-full max-w-sm md:max-w-none justify-center hover:scale-105"
                 >
-                  Read Privacy Policy
+                  <span className="relative z-10">Read Privacy Policy</span>
                 </Link>
               </div>
             </div>

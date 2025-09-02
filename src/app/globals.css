@@ -70,6 +70,13 @@ body {
   }
 }
 
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
 .animate-fade-in-up {
   animation: fade-in-up 0.8s ease-out forwards;
 }
@@ -84,6 +91,10 @@ body {
 
 .animate-pulse-heart {
   animation: heartPulse 2s ease-in-out infinite !important;
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 /* Smooth scroll behavior */

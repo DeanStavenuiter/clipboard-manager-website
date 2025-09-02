@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 export default function Features() {
+  
   const features = [
     {
       icon: (
@@ -111,12 +112,14 @@ export default function Features() {
         <div className="text-center mt-12">
           <Link
             href="/features"
-            className="inline-flex items-center gap-3 bg-gradient-to-r from-[#023531] to-[#5FB845] text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+            className="group relative bg-gradient-to-r from-[#023531] to-[#5FB845] text-white px-8 md:px-10 py-4 md:py-5 rounded-2xl font-bold text-lg transition-all duration-500 shadow-2xl hover:shadow-3xl flex items-center gap-3 overflow-hidden w-full max-w-sm  justify-center mx-auto hover:scale-105"
           >
-            <span>Explore All Features in Detail</span>
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+            <div className="absolute inset-0 bg-gradient-to-r from-[#5FB845]/10 to-[#5FB845]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <span className="relative z-10">Explore All Features in Detail</span>
+            <svg className="w-5 h-5 relative z-10 transition-transform group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>
+            <div className="absolute inset-0 ring-2 ring-white/20 rounded-2xl group-hover:ring-white/40 transition-all duration-300"></div>
           </Link>
         </div>
       </div>
